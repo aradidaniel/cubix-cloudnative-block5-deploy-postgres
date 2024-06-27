@@ -5,7 +5,6 @@ on:
   workflow_dispatch: 
 
 jobs:
-
   deploy-linux:
     runs-on: [self-hosted, linux, macOS]
     steps:
